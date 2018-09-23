@@ -1,0 +1,34 @@
+---
+name: Account
+menu: Account
+---
+
+import { Playground, PropsTable } from 'docz'
+import { Account } from '../../components/Account'
+import { accountWithBalance,
+        accountWithoutBalance, 
+        accountWithoutAddress, accountPicker} from './accountVariants'
+
+
+# Account
+
+## Account with address and balance
+<Playground>
+    <Account account={accountWithBalance} 
+             showAccountPicker={accountPicker} />
+</Playground> 
+
+## Account with address but no balance
+<Playground>
+    <Account account={accountWithoutBalance}
+             showAccountPicker={accountPicker} />
+</Playground> 
+
+## Account with no address
+<Playground>
+    <Account account={accountWithoutAddress}
+             showAccountPicker={accountPicker} />
+</Playground> 
+
+## Properties Table
+<PropsTable of={Account} />

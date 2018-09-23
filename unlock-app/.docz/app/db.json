@@ -1,0 +1,98 @@
+{
+  "config": {
+    "title": "UI Library",
+    "description": "UI Library",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null
+  },
+  "entries": {
+    "src/index.mdx": {
+      "name": "Getting Started",
+      "route": "/",
+      "order": 1,
+      "id": "6576455a124f9aaefd860597f03a8fe4",
+      "filepath": "src/index.mdx",
+      "link": null,
+      "slug": "src-index",
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "getting-started",
+          "value": "Getting started"
+        },
+        {
+          "depth": 2,
+          "slug": "consistency",
+          "value": "Consistency"
+        }
+      ]
+    },
+    "src/docz/Account/Accounts.mdx": {
+      "name": "Account",
+      "menu": "Account",
+      "id": "2ff1d1cced4e11da94c29a2c85d6d3f5",
+      "filepath": "src/docz/Account/Accounts.mdx",
+      "link": null,
+      "slug": "src-docz-account-accounts",
+      "route": "/src-docz-account-accounts",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "account",
+          "value": "Account"
+        },
+        {
+          "depth": 2,
+          "slug": "account-with-address-and-balance",
+          "value": "Account with address and balance"
+        },
+        {
+          "depth": 2,
+          "slug": "account-with-address-but-no-balance",
+          "value": "Account with address but no balance"
+        },
+        {
+          "depth": 2,
+          "slug": "account-with-no-address",
+          "value": "Account with no address"
+        },
+        {
+          "depth": 2,
+          "slug": "properties-table",
+          "value": "Properties table"
+        }
+      ]
+    },
+    "src/docz/Icons/Icons.mdx": {
+      "name": "Icons",
+      "menu": "Icons",
+      "id": "b97ffbc870b5b9220566cb665397be6e",
+      "filepath": "src/docz/Icons/Icons.mdx",
+      "link": null,
+      "slug": "src-docz-icons-icons",
+      "route": "/src-docz-icons-icons",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "icon",
+          "value": "Icon"
+        },
+        {
+          "depth": 2,
+          "slug": "primary-icon",
+          "value": "Primary icon"
+        },
+        {
+          "depth": 2,
+          "slug": "properties-table",
+          "value": "Properties table"
+        }
+      ]
+    }
+  }
+}

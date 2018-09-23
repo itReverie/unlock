@@ -8,7 +8,11 @@ if (process.env.TARGET == 'staging') {
   url = 'http://localhost:3000'
 }
 
-module.exports = {
+
+//import setAlias from "./setAlias";
+
+
+let webpackObj = {
   entry: './src/unlock.js',
   output: {
     filename: 'unlock.js',
@@ -24,3 +28,10 @@ module.exports = {
     }),
   ],
 }
+
+module.exports = webpackObj;//setAlias(webpackObj);
+
+
+
+
+
