@@ -1,9 +1,9 @@
 {
   "vendors.js": "/static/js/vendors.5d4f6df5.js",
-  "app.js": "/static/js/app.bc8e6e1d.js",
+  "app.js": "/static/js/app.16d806bc.js",
   "src-index.js": "/static/js/src-index.7b1a68ce.js",
-  "src-docz-account-accounts.js": "/static/js/src-docz-account-accounts.c222e08e.js",
+  "src-docz-account-accounts.js": "/static/js/src-docz-account-accounts.68b793be.js",
   "src-docz-icons-icons.js": "/static/js/src-docz-icons-icons.2de6ad7d.js",
-  "runtime~app.js": "/static/js/runtime~app.0e5bf4ef5a4d05a22734.js",
+  "runtime~app.js": "/static/js/runtime~app.0e91ab6e13c6ff44fb4a.js",
   "index.html": "/index.html"
 }
